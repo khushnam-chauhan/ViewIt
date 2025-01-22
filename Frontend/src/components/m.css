@@ -1,0 +1,117 @@
+
+
+
+.m-s{
+  
+    display: flex;
+    flex-direction: column;
+  gap: 10;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  
+  }
+  .m-s-l{
+    display: flex;
+    --tw-space-x-reverse: 0;
+      margin-right: calc(1rem /* 16px */ * var(--tw-space-x-reverse));
+      overflow-x: scroll;
+      margin-left: calc(1rem /* 16px */ * calc(1 - var(--tw-space-x-reverse)));
+  }
+  
+  .m-container{
+    background-color: black;
+    color: #ccc;
+    position: relative;
+    padding-left: 1.25rem /* 20px */;
+    padding-right: 1.25rem /* 20px */;
+  }
+  .m-content{
+    min-width: 1px;
+    width:3rem;
+    position:relative;
+  }
+  .m-border{
+    border-radius: 0.5rem /* 8px */;
+    overflow: hidden;
+  }
+  .m-txt{
+    margin-bottom: 1rem /* 16px */;
+    font-size: 1.5rem /* 24px */;
+      line-height: 2rem /* 32px */;
+      font-weight: 700
+      
+  }
+  .m-p{
+    margin-top: 0.5rem /* 8px */;
+    text-align: center;
+  }
+  .m-transitions{
+    transition-property: transform;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 150ms;
+      transition-duration: 300ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      --tw-scale-x: 1.25;
+      --tw-scale-y: 1.25;
+      transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  /*import { useEffect, useState } from "react";
+import { useContentStore } from "../store/content";
+import axios from "axios";
+import { Link } from "react-router-dom";
+import { SMALL_IMG_BASE_URL } from "../utils/constants";
+import "./m.css"; 
+
+const MovieSlider = ({category}) => {
+    const { contentType } = useContentStore();
+   const [content,setContent] = useState([]);
+
+
+    const formattedCategoryName = 
+    category.replaceAll("_"," ")[0].toUpperCase( ) + category.replaceAll("_"," ").slice(1);
+    const formattedContentType = contentType === "movie"? "Movies" : "TV Shows";
+  
+    
+
+useEffect(()  => {
+const getContent = async () =>{
+    const res = await axios.get(`/api/v1/${contentType}/${category}`)
+    setContent(res.data.content);
+}
+getContent()
+},[contentType,category])
+
+    return(
+ <div className='m-container'
+
+ >
+
+
+
+<h2 className='.m-txt'>
+    {formattedCategoryName} {formattedContentType}
+</h2>
+
+<div className="m-s-l">
+{content.map(item => (
+   <Link to={`/watch/${item.id}`} className='m-content' key={item.id}>
+<div className='.m-border'>
+<img src={ SMALL_IMG_BASE_URL + item.backdrop_path } alt="Movie image"
+className='.m-transitions'/>
+</div>
+<p className = '.m-p'>
+    {item.title || item.name}
+</p>
+
+</Link>
+))}
+</div>
+
+
+
+
+ </div>
+    );
+};
+
+export default MovieSlider;*/

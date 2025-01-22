@@ -1,0 +1,213 @@
+
+/* Swiper container customization */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; /* Center the swiper horizontally */
+    padding: 2px;
+    overflow: hidden;
+    margin-top:5px;
+    display: flex;             /* Enables Flexbox */
+      flex-direction: column;    /* Stacks children vertically */
+      justify-content: center;   /* Aligns items along the main axis */
+      align-items: center
+  }
+  
+  /* Swiper wrapper styling */
+  .swiper-wrapper {
+    width:65%;
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Swiper slide styling */
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  /* Navigation buttons styling */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white;
+    transition: color 0.3s;
+    font-size: 18px; /* Adjust the size of the icon */
+    width: auto; /* Let width be determined by font size */
+    height: auto; /* Let height be determined by font size */
+  }
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 50px; /* Reduce the size of the arrows */
+    width: auto; /* Ensure icon is responsive */
+    height: auto; /* Ensure icon is responsive */
+  }
+  
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    color: #ccc;
+  }
+
+
+  .m-slider{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    background-color: black;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+  }
+  /* footer Container */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  height: 50px;
+  bottom: 10px;
+  background: linear-gradient(90deg, #ff0080, #ff0050);
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 0, 128, 1), 0 0 40px rgba(255, 0, 80, 0.9);
+  animation: glow 2s infinite alternate;   
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(255, 0, 128, 1), 0 0 60px rgba(255, 0, 80, 1);
+}
+
+/* Glowing Animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 0, 128, 0.9), 0 0 40px rgba(255, 0, 80, 0.8);
+    background: linear-gradient(90deg, #ff0080, #ff0050);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 0, 150, 1), 0 0 50px rgba(255, 0, 100, 1);
+    background: linear-gradient(90deg, #ff00a0, #ff0060);
+  }
+  100% {
+    box-shadow: 0 0 40px rgba(255, 0, 180, 1), 0 0 70px rgba(255, 0, 120, 1);
+    background: linear-gradient(90deg, #ff0080, #ff0070);
+  }
+}
+
+/* Text Style */
+.footer-text {
+  text-transform: none;
+  margin-right: 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-icon {
+  font-size: 28px;
+  position: relative;
+  padding: 5px;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.footer:hover .banner-icon {
+  transform: rotate(15deg) scale(1.2);
+}
+
+/* Subtle Moving Overlay Effect */
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent 70%);
+  animation: lightMove 2s linear infinite;
+}
+
+@keyframes lightMove {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto; /* Center the swiper horizontally */
+        padding: 3px;
+        overflow: hidden;
+        margin-top:12px;
+      }
+      
+      /* Swiper wrapper styling */
+      .swiper-wrapper {
+        width:88%;
+        height: 70%;
+        display: flex;
+        transition: transform 0.5s ease;
+      }
+      .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+      }
+      /* Swiper slide styling */
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+      }
+      .swiper-button-next,
+  .swiper-button-prev {
+    font-size: 0px; /* Adjust the size of the icon (arrows) */
+  }
+      .footer{
+        width: 100%;
+        height: 37px;
+       /* bottom: -460px;*/
+        font-size: 16px;
+        animation:none 2s infinite alternate;
+      }
+      .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 0px; /* Reduce the size of the arrows */
+    width: auto; /* Ensure icon is responsive */
+    height: auto; /* Ensure icon is responsive */
+  }
+  .m-slider {
+    gap: 3rem; /* Reduce gap for smaller screens */
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  }
+  
