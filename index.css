@@ -429,7 +429,7 @@ height: 75%;
     }
 
     .txt-5 {
-        font-size: 11px;
+        font-size: 0px;
         width: 90%;
         left: 50%;
         transform: translateX(-50%);
