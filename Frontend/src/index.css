@@ -406,7 +406,7 @@ height: 75%;
     }
 
     .card-container {
-        margin-top: 123%;
+        margin-top: 122%;
         gap: 30px;
     }
 
@@ -425,15 +425,15 @@ height: 75%;
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
-        bottom: 75px;
+        bottom: 94px;
     }
 
     .txt-5 {
-        font-size: 11px;
+        font-size: 0px;
         width: 90%;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 36px;
+        bottom: 58px;
     }
 
     .txt-7 {
