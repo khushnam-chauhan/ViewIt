@@ -38,7 +38,8 @@ You can easily logout from WATCHit™ by clicking the Logout button, located in 
 ![Screenshot 2025-01-22 215745](https://github.com/user-attachments/assets/a4813d00-09ae-4929-8124-33f28fe69ebc)
 
 The WATCHit™ web app is mobile-responsive, providing a smooth experience on both desktop and mobile devices.
-![photo_2025-01-23_15-54-17](https://github.com/user-attachments/assets/da3ffafd-850a-40ff-a6d2-d64b05a6714b)
+![photo_2025-01-23_16-06-08](https://github.com/user-attachments/assets/01e57d60-e4eb-46c3-ab91-b1f6302a977d)
+
 
    .![CatsCoolCatGIF](https://github.com/user-attachments/assets/6765e959-fc56-4085-bcac-b0a5768c5045)
 
