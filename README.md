@@ -41,7 +41,7 @@ The WATCHit™ web app is mobile-responsive, providing a smooth experience on bo
 ![photo_2025-01-23_16-06-08](https://github.com/user-attachments/assets/01e57d60-e4eb-46c3-ab91-b1f6302a977d)
 
 
-   .![CatsCoolCatGIF](https://github.com/user-attachments/assets/6765e959-fc56-4085-bcac-b0a5768c5045)
+   ![CatsCoolCatGIF](https://github.com/user-attachments/assets/6765e959-fc56-4085-bcac-b0a5768c5045)
 
 
 
