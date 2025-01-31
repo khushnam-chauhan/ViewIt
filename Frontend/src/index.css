@@ -398,7 +398,7 @@ height: 75%;
  margin-top: 28px;
 }
     .signup {
-        bottom: 109px;
+        bottom: 122px;
         font-size: 20px;
         padding: 8px 30px;
         left: 26%;
@@ -406,7 +406,7 @@ height: 75%;
     }
 
     .card-container {
-        margin-top: 122%;
+        margin-top: 132%;
         gap: 30px;
     }
 
@@ -429,7 +429,7 @@ height: 75%;
     }
 
     .txt-5 {
-        font-size: 0px;
+        font-size: 11px;
         width: 90%;
         left: 50%;
         transform: translateX(-50%);
@@ -503,7 +503,7 @@ height: 75%;
         bottom: 75px;
     }
     .card-container {
-        margin-top: 120%;
+        margin-top: 130%;
         gap: 30px;
     }
     .txt-5 {
