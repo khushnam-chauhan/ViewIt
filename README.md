@@ -1,5 +1,5 @@
 Please be patient. The website may take more than a minute to render after being inactive for over 50 minutes. Thank you for your understanding!
-This is an alternative URL for the site: https://watchit-3h8k.onrender.com/.
+This is an alternative URL for the site: https://watchit-production.up.railway.app.
 
 ![Screenshot 2025-01-22 202213](https://github.com/user-attachments/assets/79e50a1a-c5f1-4815-830e-b887cf2b7f94)
 
