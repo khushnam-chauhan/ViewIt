@@ -5,7 +5,7 @@ To run the WATCHit™ project locally:
 
 Setup .env file in root directory ✅️
 ```
-PORT=5000
+PORT=3000
 MONGO_URI=your_mongo_uri
 NODE_ENV=development
 JWT_SECRET=your_jwt_secre
