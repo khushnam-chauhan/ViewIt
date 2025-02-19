@@ -1,9 +1,9 @@
 Please be patient. The website may take more than a minute to render after being inactive for over 50 minutes. Thank you for your understanding!
 This is an alternative URL for the site: https://watchit-production.up.railway.app.
-
+__________________________
 To run the WATCHit™ project locally:
 
-Setup .env file✅️
+Setup .env file in root directory ✅️
 
 PORT=5000
 MONGO_URI=your_mongo_uri
@@ -20,7 +20,7 @@ Start the app✅️
 npm run start
 
 Following these steps will set up and run the WATCHit™ project on your local computer.
-
+__________________________
 
 
 ![Screenshot 2025-01-22 202213](https://github.com/user-attachments/assets/79e50a1a-c5f1-4815-830e-b887cf2b7f94)
@@ -58,7 +58,7 @@ The Search Bar offers content categories like Movies, TV Shows, and Person. You 
 
 You can easily logout from WATCHit™ by clicking the Logout button, located in the app's settings or menu.
 ![Screenshot 2025-01-22 215745](https://github.com/user-attachments/assets/a4813d00-09ae-4929-8124-33f28fe69ebc)
-
+__________________________
 The WATCHit™ web app is mobile-responsive, providing a smooth experience on both desktop and mobile devices.
 ![photo_2025-01-23_16-06-08](https://github.com/user-attachments/assets/01e57d60-e4eb-46c3-ab91-b1f6302a977d)
 
