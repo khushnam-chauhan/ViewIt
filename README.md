@@ -1,6 +1,28 @@
 Please be patient. The website may take more than a minute to render after being inactive for over 50 minutes. Thank you for your understanding!
 This is an alternative URL for the site: https://watchit-production.up.railway.app.
 
+To run the WATCHit™ project locally:
+
+Setup .env file✅️
+
+PORT=5000
+MONGO_URI=your_mongo_uri
+NODE_ENV=development
+JWT_SECRET=your_jwt_secre
+TMDB_API_KEY=your_tmdb_api_key
+
+Run this app locally✅️
+
+npm run build
+
+Start the app✅️
+
+npm run start
+
+Following these steps will set up and run the WATCHit™ project on your local computer.
+
+
+
 ![Screenshot 2025-01-22 202213](https://github.com/user-attachments/assets/79e50a1a-c5f1-4815-830e-b887cf2b7f94)
 
 The WATCHit™ Registration Page features an autoplaying video showcasing the app’s highlights. The video starts muted, with a simple mute/unmute button for easy audio control, making it engaging and user-friendly.
