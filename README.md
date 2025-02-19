@@ -4,21 +4,21 @@ __________________________
 To run the WATCHit™ project locally:
 
 Setup .env file in root directory ✅️
-
+```
 PORT=5000
 MONGO_URI=your_mongo_uri
 NODE_ENV=development
 JWT_SECRET=your_jwt_secre
 TMDB_API_KEY=your_tmdb_api_key
-
+```
 Run this app locally✅️
-
+```
 npm run build
-
+```
 Start the app✅️
-
+```
 npm run start
-
+```
 Following these steps will set up and run the WATCHit™ project on your local computer.
 __________________________
 
