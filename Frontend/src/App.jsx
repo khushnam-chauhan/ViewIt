@@ -23,7 +23,7 @@ function App() {
   ); if(isCheckingAuth) {
     return (
       <div className='h-screen'>
-        <Loader className='animate-spin text-pink-700 size-10' />
+        <Loader className='animate-spin h-screen text-pink-700 size-10' />
       </div>
     )
   }
@@ -40,8 +40,7 @@ function App() {
       
       <Route path='/watch/:id' element={  <WatchPage /> } />
      
-      <Route path='/search' element={  <SearchPage /> } />
-
+      <Route path='/search' element={user ? <SearchPage /> : <Navigate to={"/login"} />} />
       <Route path='/history' element={  <SearchHistoryPage /> } />
       <Route path='/*' element={<NotFoundPage />} />
 
