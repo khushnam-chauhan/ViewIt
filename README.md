@@ -8,8 +8,9 @@ __________________________
 -   🎥 Watch Trailers
 -   🐱‍👤 Get Similar Movies/Tv Shows
 -   💙 Awesome Landing Page
+-   📱 Mobile Responsive UI
 -   🚀 And Many More Cool Features
-  _______________________
+ _______________________
 To run the WATCHit™ project locally:
 
 Setup .env file in root directory ✅️
@@ -68,8 +69,7 @@ The Search Bar offers content categories like Movies, TV Shows, and Person. You 
 You can easily logout from WATCHit™ by clicking the Logout button, located in the app's settings or menu.
 ![Screenshot 2025-01-22 215745](https://github.com/user-attachments/assets/a4813d00-09ae-4929-8124-33f28fe69ebc)
 __________________________
-The WATCHit™ web app is mobile-responsive, providing a smooth experience on both desktop and mobile devices.
-![photo_2025-01-23_16-06-08](https://github.com/user-attachments/assets/01e57d60-e4eb-46c3-ab91-b1f6302a977d)
+
 
 
    ![CatsCoolCatGIF](https://github.com/user-attachments/assets/6765e959-fc56-4085-bcac-b0a5768c5045)
