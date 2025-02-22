@@ -1,6 +1,15 @@
 Please be patient. The website may take more than a minute to render after being inactive for over 50 minutes. Thank you for your understanding!
 This is an alternative URL for the site: https://watchit-production.up.railway.app.
 __________________________
+-   ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Tailwind CSS
+-   🔐 Authentication with JWT
+-   🎬 Fetch Movies and Tv Show
+-   🔎 Search for Actors and Movies
+-   🎥 Watch Trailers
+-   🐱‍👤 Get Similar Movies/Tv Shows
+-   💙 Awesome Landing Page
+-   🚀 And Many More Cool Features
+  _______________________
 To run the WATCHit™ project locally:
 
 Setup .env file in root directory ✅️
