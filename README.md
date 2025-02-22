@@ -60,7 +60,7 @@ The WATCHit™ Home Screen opens to the Movies section by default, featuring a s
 The Search Bar offers content categories like Movies, TV Shows, and Person. You can explore and play content from each category, and also discover related items under Content Data for a wider selection.
 
 
-You can easily logout from WATCHit™ by clicking the Logout button, located in the app's settings or menu.
+You can easily logout from WATCHit™ by clicking the Logout button.
 ![Screenshot 2025-01-22 215745](https://github.com/user-attachments/assets/a4813d00-09ae-4929-8124-33f28fe69ebc)
 __________________________
 
