@@ -61,7 +61,7 @@ The Search Bar offers content categories like Movies, TV Shows, and Person. You 
 
 
 You can easily logout from WATCHit™ by clicking the Logout button.
-![Screenshot 2025-01-22 215745](https://github.com/user-attachments/assets/a4813d00-09ae-4929-8124-33f28fe69ebc)
+
 __________________________
 
 
