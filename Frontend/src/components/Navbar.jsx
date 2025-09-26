@@ -22,7 +22,9 @@ const Navbar = () => {
 		<header className='max-w-24xl mx-auto flex flex-wrap items-center justify-between p-2 h-16'>
 			<div onClick={handleRefresh} className='flex items-center gap-10 z-50'>
 				<Link to='/'>
-					<img src='/header logo png.png' alt='watchit Logo' title="Homepage" className='w-44 sm:w-44' />
+					<h1 class="text-5xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-purple-500 via-teal-400 to-cyan-400 text-transparent bg-clip-text drop-shadow-lg">
+  ViewIt
+</h1>
 				</Link>
 
 				{/* desktop navbar items */}

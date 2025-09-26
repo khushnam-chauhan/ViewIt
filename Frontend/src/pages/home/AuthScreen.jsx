@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 
 const AuthScreen = () => {
@@ -17,9 +16,9 @@ const AuthScreen = () => {
 
     // Initialize video settings
     video.muted = true;
-    video.loop = true; // Ensure the video loops after playback
+    video.loop = true;
 
-    // Show thumbnail for 5 seconds, then fade it out and start video
+    // Show thumbnail for 2.5 seconds, then fade it out and start video
     const timer1 = setTimeout(() => {
       thumbnail.style.opacity = 0;
       setTimeout(() => {
@@ -54,7 +53,6 @@ const AuthScreen = () => {
     unmuteButton.addEventListener("click", handleUnmute);
     playPauseButton.addEventListener("click", handlePlayPause);
 
-    // Cleanup on component unmount
     return () => {
       clearTimeout(timer1);
       unmuteButton.removeEventListener("click", handleUnmute);
@@ -84,66 +82,71 @@ const AuthScreen = () => {
           <img src="/pause-circle-svgrepo-com.svg" alt="Play/Pause" />
         </button>
 
-        <button id="login-btn" onClick={() => window.location.href = '/login'} // Navigates to login
->
-  Login
-</button>
-        <div className="watchit-hero">
-          <img src="header logo png.png" alt="WatchIt Logo" />
+        <button
+          id="login-btn"
+          onClick={() => (window.location.href = "/login")}
+        >
+          Login
+        </button>
+
+        <div className="viewit-hero">
+          <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-purple-500 via-teal-400 to-cyan-400 text-transparent bg-clip-text drop-shadow-lg">
+            ViewIt
+          </h1>
         </div>
       </header>
 
-      <div className="watchit-text">
-        <div className="txt-1">Get Instant Access to Trending</div>
-        <div className="txt-2">Movies and TV Shows.</div>
+      <div className="viewit-text">
+        <div className="txt-1">Stream Instantly, Anytime</div>
+        <div className="txt-2">Movies and TV Shows You Love</div>
         <div className="txt-3">
-          Create your account and unlock a world of Movies & Shows.
+          Create your account today and unlock a world of non-stop
+          entertainment.
         </div>
-        <button className="signup" onClick={() => window.location.href = '/signup'} >Sign Up Now</button>
+        <button
+          className="signup"
+          onClick={() => (window.location.href = "/signup")}
+        >
+          Sign Up Now
+        </button>
       </div>
 
       <div className="gap"></div>
 
       <div className="txt-4">Your World, Your Screen</div>
       <div className="txt-5">
-        Enjoy Full Seasons of Top Series, New Episodes, Hit Movies, WATCHit™
-        Originals, Kids Content, and More.
+        Enjoy entire seasons of hit series, the latest episodes, blockbuster
+        movies, <b>ViewIt™ Originals</b>, kids content, and more.
       </div>
 
-      <div onClick={showAlert}  className="card-container">
+      <div onClick={showAlert} className="card-container">
         <div className="card">
           <img src="/alien.jpg" alt="Movie Poster" />
           <div className="overlay-number">Alien: Romulus</div>
         </div>
 
         <div className="card">
-          <img src="/Hidden place.jpg" alt="Movie poster" />
+          <img src="/Hidden place.jpg" alt="Movie Poster" />
           <div className="overlay-number">Hidden Face</div>
         </div>
 
         <div className="card">
-          <img src="/Nosferatu.jpg" alt="Movie poster" />
+          <img src="/Nosferatu.jpg" alt="Movie Poster" />
           <div className="overlay-number">Nosferatu</div>
         </div>
       </div>
-     
+
       <footer>
-      
         <div className="txt-7">
-        
           Disclaimer: This site does not store any files on the server.
-          WATCHit™ only provides links to media hosted on third-party services.
-          All content is made available by non-affiliated third parties.
+          <b> ViewIt™</b> only provides links to media hosted on third-party
+          services. All content is made available by non-affiliated third
+          parties.
           <pre></pre>
-          Built by{" "}
-          Abhishek Ganvir The
-          source code is available on{" "}
-          GitHub.
+         
         </div>
-      
       </footer>
-      </div>
-    
+    </div>
   );
 };
 

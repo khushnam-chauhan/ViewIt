@@ -115,9 +115,9 @@ const SearchPage = () => {
 
 				<footer>
           <div className=" footer">
-         <span className="footer-text">© WATCHit™ | Developed by Ahh🐝</span>
-         <span className="footer-icon"> <a href="https://telegram.me/AbhiGanvir"> <img src="/telegram.svg" alt="" srcset="" /></a></span>
-		 <span className='footer-icon'><a href="https://github.com/AbhishekGanvir"> <img src="github.svg" alt="" /> </a></span>
+         <span className="footer-text">© ViewIt™ | by khushnam</span>
+         <span className="footer-icon"> <a href="#"> <img src="/telegram.svg" alt="" srcset="" /></a></span>
+		 <span className='footer-icon'><a href="#"> <img src="github.svg" alt="" /> </a></span>
         </div>
           </footer>
           </div>
